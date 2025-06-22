@@ -67,6 +67,18 @@ build CMakeFiles/RubiksCubeSolver.dir/RubiksCube3dArray.cpp.o: CXX_COMPILER__Rub
   OBJECT_DIR = CMakeFiles/RubiksCubeSolver.dir
   OBJECT_FILE_DIR = CMakeFiles/RubiksCubeSolver.dir
 
+build CMakeFiles/RubiksCubeSolver.dir/RubiksCube1dArray.cpp.o: CXX_COMPILER__RubiksCubeSolver_unscanned_Debug /home/argha/CLionProjects/RubiksCubeSolver/RubiksCube1dArray.cpp || cmake_object_order_depends_target_RubiksCubeSolver
+  DEP_FILE = CMakeFiles/RubiksCubeSolver.dir/RubiksCube1dArray.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/RubiksCubeSolver.dir
+  OBJECT_FILE_DIR = CMakeFiles/RubiksCubeSolver.dir
+
+build CMakeFiles/RubiksCubeSolver.dir/RubiksCubeBitboard.cpp.o: CXX_COMPILER__RubiksCubeSolver_unscanned_Debug /home/argha/CLionProjects/RubiksCubeSolver/RubiksCubeBitboard.cpp || cmake_object_order_depends_target_RubiksCubeSolver
+  DEP_FILE = CMakeFiles/RubiksCubeSolver.dir/RubiksCubeBitboard.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/RubiksCubeSolver.dir
+  OBJECT_FILE_DIR = CMakeFiles/RubiksCubeSolver.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target RubiksCubeSolver
@@ -75,7 +87,7 @@ build CMakeFiles/RubiksCubeSolver.dir/RubiksCube3dArray.cpp.o: CXX_COMPILER__Rub
 #############################################
 # Link the executable RubiksCubeSolver
 
-build RubiksCubeSolver: CXX_EXECUTABLE_LINKER__RubiksCubeSolver_Debug CMakeFiles/RubiksCubeSolver.dir/main.cpp.o CMakeFiles/RubiksCubeSolver.dir/RubiksCube.cpp.o CMakeFiles/RubiksCubeSolver.dir/RubiksCube3dArray.cpp.o
+build RubiksCubeSolver: CXX_EXECUTABLE_LINKER__RubiksCubeSolver_Debug CMakeFiles/RubiksCubeSolver.dir/main.cpp.o CMakeFiles/RubiksCubeSolver.dir/RubiksCube.cpp.o CMakeFiles/RubiksCubeSolver.dir/RubiksCube3dArray.cpp.o CMakeFiles/RubiksCubeSolver.dir/RubiksCube1dArray.cpp.o CMakeFiles/RubiksCubeSolver.dir/RubiksCubeBitboard.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/RubiksCubeSolver.dir
   POST_BUILD = :
