@@ -55,29 +55,29 @@ build CMakeFiles/RubiksCubeSolver.dir/main.cpp.o: CXX_COMPILER__RubiksCubeSolver
   OBJECT_DIR = CMakeFiles/RubiksCubeSolver.dir
   OBJECT_FILE_DIR = CMakeFiles/RubiksCubeSolver.dir
 
-build CMakeFiles/RubiksCubeSolver.dir/RubiksCube.cpp.o: CXX_COMPILER__RubiksCubeSolver_unscanned_Debug /home/argha/CLionProjects/RubiksCubeSolver/RubiksCube.cpp || cmake_object_order_depends_target_RubiksCubeSolver
-  DEP_FILE = CMakeFiles/RubiksCubeSolver.dir/RubiksCube.cpp.o.d
+build CMakeFiles/RubiksCubeSolver.dir/Model/RubiksCube.cpp.o: CXX_COMPILER__RubiksCubeSolver_unscanned_Debug /home/argha/CLionProjects/RubiksCubeSolver/Model/RubiksCube.cpp || cmake_object_order_depends_target_RubiksCubeSolver
+  DEP_FILE = CMakeFiles/RubiksCubeSolver.dir/Model/RubiksCube.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/RubiksCubeSolver.dir
-  OBJECT_FILE_DIR = CMakeFiles/RubiksCubeSolver.dir
+  OBJECT_FILE_DIR = CMakeFiles/RubiksCubeSolver.dir/Model
 
-build CMakeFiles/RubiksCubeSolver.dir/RubiksCube3dArray.cpp.o: CXX_COMPILER__RubiksCubeSolver_unscanned_Debug /home/argha/CLionProjects/RubiksCubeSolver/RubiksCube3dArray.cpp || cmake_object_order_depends_target_RubiksCubeSolver
-  DEP_FILE = CMakeFiles/RubiksCubeSolver.dir/RubiksCube3dArray.cpp.o.d
+build CMakeFiles/RubiksCubeSolver.dir/Model/RubiksCube3dArray.cpp.o: CXX_COMPILER__RubiksCubeSolver_unscanned_Debug /home/argha/CLionProjects/RubiksCubeSolver/Model/RubiksCube3dArray.cpp || cmake_object_order_depends_target_RubiksCubeSolver
+  DEP_FILE = CMakeFiles/RubiksCubeSolver.dir/Model/RubiksCube3dArray.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/RubiksCubeSolver.dir
-  OBJECT_FILE_DIR = CMakeFiles/RubiksCubeSolver.dir
+  OBJECT_FILE_DIR = CMakeFiles/RubiksCubeSolver.dir/Model
 
-build CMakeFiles/RubiksCubeSolver.dir/RubiksCube1dArray.cpp.o: CXX_COMPILER__RubiksCubeSolver_unscanned_Debug /home/argha/CLionProjects/RubiksCubeSolver/RubiksCube1dArray.cpp || cmake_object_order_depends_target_RubiksCubeSolver
-  DEP_FILE = CMakeFiles/RubiksCubeSolver.dir/RubiksCube1dArray.cpp.o.d
+build CMakeFiles/RubiksCubeSolver.dir/Model/RubiksCube1dArray.cpp.o: CXX_COMPILER__RubiksCubeSolver_unscanned_Debug /home/argha/CLionProjects/RubiksCubeSolver/Model/RubiksCube1dArray.cpp || cmake_object_order_depends_target_RubiksCubeSolver
+  DEP_FILE = CMakeFiles/RubiksCubeSolver.dir/Model/RubiksCube1dArray.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/RubiksCubeSolver.dir
-  OBJECT_FILE_DIR = CMakeFiles/RubiksCubeSolver.dir
+  OBJECT_FILE_DIR = CMakeFiles/RubiksCubeSolver.dir/Model
 
-build CMakeFiles/RubiksCubeSolver.dir/RubiksCubeBitboard.cpp.o: CXX_COMPILER__RubiksCubeSolver_unscanned_Debug /home/argha/CLionProjects/RubiksCubeSolver/RubiksCubeBitboard.cpp || cmake_object_order_depends_target_RubiksCubeSolver
-  DEP_FILE = CMakeFiles/RubiksCubeSolver.dir/RubiksCubeBitboard.cpp.o.d
+build CMakeFiles/RubiksCubeSolver.dir/Model/RubiksCubeBitboard.cpp.o: CXX_COMPILER__RubiksCubeSolver_unscanned_Debug /home/argha/CLionProjects/RubiksCubeSolver/Model/RubiksCubeBitboard.cpp || cmake_object_order_depends_target_RubiksCubeSolver
+  DEP_FILE = CMakeFiles/RubiksCubeSolver.dir/Model/RubiksCubeBitboard.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/RubiksCubeSolver.dir
-  OBJECT_FILE_DIR = CMakeFiles/RubiksCubeSolver.dir
+  OBJECT_FILE_DIR = CMakeFiles/RubiksCubeSolver.dir/Model
 
 
 # =============================================================================
@@ -87,7 +87,7 @@ build CMakeFiles/RubiksCubeSolver.dir/RubiksCubeBitboard.cpp.o: CXX_COMPILER__Ru
 #############################################
 # Link the executable RubiksCubeSolver
 
-build RubiksCubeSolver: CXX_EXECUTABLE_LINKER__RubiksCubeSolver_Debug CMakeFiles/RubiksCubeSolver.dir/main.cpp.o CMakeFiles/RubiksCubeSolver.dir/RubiksCube.cpp.o CMakeFiles/RubiksCubeSolver.dir/RubiksCube3dArray.cpp.o CMakeFiles/RubiksCubeSolver.dir/RubiksCube1dArray.cpp.o CMakeFiles/RubiksCubeSolver.dir/RubiksCubeBitboard.cpp.o
+build RubiksCubeSolver: CXX_EXECUTABLE_LINKER__RubiksCubeSolver_Debug CMakeFiles/RubiksCubeSolver.dir/main.cpp.o CMakeFiles/RubiksCubeSolver.dir/Model/RubiksCube.cpp.o CMakeFiles/RubiksCubeSolver.dir/Model/RubiksCube3dArray.cpp.o CMakeFiles/RubiksCubeSolver.dir/Model/RubiksCube1dArray.cpp.o CMakeFiles/RubiksCubeSolver.dir/Model/RubiksCubeBitboard.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/RubiksCubeSolver.dir
   POST_BUILD = :
@@ -100,7 +100,7 @@ build RubiksCubeSolver: CXX_EXECUTABLE_LINKER__RubiksCubeSolver_Debug CMakeFiles
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/argha/CLionProjects/RubiksCubeSolver/cmake-build-debug && /snap/clion/353/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/argha/CLionProjects/RubiksCubeSolver/cmake-build-debug && /snap/clion/363/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -111,7 +111,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/argha/CLionProjects/RubiksCubeSolver/cmake-build-debug && /snap/clion/353/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/argha/CLionProjects/RubiksCubeSolver -B/home/argha/CLionProjects/RubiksCubeSolver/cmake-build-debug
+  COMMAND = cd /home/argha/CLionProjects/RubiksCubeSolver/cmake-build-debug && /snap/clion/363/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/argha/CLionProjects/RubiksCubeSolver -B/home/argha/CLionProjects/RubiksCubeSolver/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -145,14 +145,14 @@ build all: phony RubiksCubeSolver
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/argha/CLionProjects/RubiksCubeSolver/CMakeLists.txt /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCInformation.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCXXInformation.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeGenericSystem.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-C.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Linker/GNU-C.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Linker/GNU-CXX.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Linker/GNU.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-C.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-CXX.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-GNU-C.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-GNU.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-Initialize.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.31.6/CMakeCCompiler.cmake CMakeFiles/3.31.6/CMakeCXXCompiler.cmake CMakeFiles/3.31.6/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/argha/CLionProjects/RubiksCubeSolver/CMakeLists.txt /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCInformation.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCXXInformation.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeGenericSystem.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-C.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Linker/GNU-C.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Linker/GNU-CXX.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Linker/GNU.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-C.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-CXX.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-GNU-C.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-GNU.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-Initialize.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.31.6/CMakeCCompiler.cmake CMakeFiles/3.31.6/CMakeCXXCompiler.cmake CMakeFiles/3.31.6/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/argha/CLionProjects/RubiksCubeSolver/CMakeLists.txt /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCInformation.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCXXInformation.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeGenericSystem.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-C.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Linker/GNU-C.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Linker/GNU-CXX.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Linker/GNU.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-C.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-CXX.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-GNU-C.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-GNU.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-Initialize.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux.cmake /snap/clion/353/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.31.6/CMakeCCompiler.cmake CMakeFiles/3.31.6/CMakeCXXCompiler.cmake CMakeFiles/3.31.6/CMakeSystem.cmake: phony
+build /home/argha/CLionProjects/RubiksCubeSolver/CMakeLists.txt /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCInformation.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCXXInformation.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeGenericSystem.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-C.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Linker/GNU-C.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Linker/GNU-CXX.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Linker/GNU.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-C.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-CXX.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-GNU-C.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-GNU.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-Initialize.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux.cmake /snap/clion/363/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.31.6/CMakeCCompiler.cmake CMakeFiles/3.31.6/CMakeCXXCompiler.cmake CMakeFiles/3.31.6/CMakeSystem.cmake: phony
 
 
 #############################################
